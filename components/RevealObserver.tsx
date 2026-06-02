@@ -1,8 +1,16 @@
 'use client';
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function RevealObserver() {
+  const pathname = usePathname();
+
   useEffect(() => {
+    // Strip .visible from any leftover elements from the previous page
+    document.querySelectorAll('.reveal.visible').forEach((el) => {
+      el.classList.remove('visible');
+    });
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -19,7 +27,7 @@ export default function RevealObserver() {
     targets.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   return null;
 }
