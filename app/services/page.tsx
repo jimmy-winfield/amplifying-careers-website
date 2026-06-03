@@ -104,7 +104,7 @@ export default function ServicesPage() {
       ══════════════════════════════════════ */}
 
       {/* Opening hook — cream */}
-      <section className="section bg-cream" style={{paddingTop: '5rem', paddingBottom: '4rem'}}>
+      <section className="section bg-cream" style={{paddingTop: '3rem', paddingBottom: '4rem'}}>
         <div className="ccp-hook-inner reveal">
           <span className="program-badge">Flagship Programme</span>
           <h2>The Career Compass Programme</h2>
