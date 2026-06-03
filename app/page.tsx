@@ -150,8 +150,6 @@ export default function HomePage() {
           <span className="trust-divider" aria-hidden="true" />
           <span className="trust-item">First Class Honours</span>
           <span className="trust-divider" aria-hidden="true" />
-          <span className="trust-item">Associate Fellow, Advance HE</span>
-          <span className="trust-divider" aria-hidden="true" />
           <span className="trust-item">Firework Licensed Career Coach</span>
           <span className="trust-divider" aria-hidden="true" />
           <span className="trust-item">100+ Sessions Delivered</span>
@@ -164,6 +162,8 @@ export default function HomePage() {
           >
             LinkedIn Verified Reviews
           </a>
+          <span className="trust-divider" aria-hidden="true" />
+          <span className="trust-item">Associate Fellow, Advance HE</span>
         </div>
       </section>
 
