@@ -346,7 +346,6 @@ p {
 .hero-subtext {
   font-size: 1.1rem;
   color: var(--text-muted);
-  max-width: 500px;
   margin-bottom: 2.5rem;
   line-height: 1.75;
 }
