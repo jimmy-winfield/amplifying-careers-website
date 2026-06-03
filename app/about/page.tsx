@@ -78,7 +78,7 @@ export default function AboutPage() {
                 While navigating my own transition, I found myself naturally helping friends to identify fulfilling paths and secure roles they were excited about. I loved this process, and upon reflection, I realised that I&apos;d discovered a love for career coaching.
               </p>
               <p>
-                I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as Faculty Employer Engagement and Placement Manager at Greenwich Business School.
+                I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as a Career Consultant at a university in London.
               </p>
             </article>
 

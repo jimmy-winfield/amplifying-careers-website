@@ -9,7 +9,12 @@ import RevealObserver from '../components/RevealObserver';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
-const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // Replace with your real GA4 Measurement ID
+// ─── Google Analytics ────────────────────────────────────────────────────────
+// To activate GA4, replace the placeholder below with your real Measurement ID.
+// You can find it in Google Analytics → Admin → Data Streams → your stream.
+// It looks like: G-ABCDEF1234
+// Once updated, redeploy the site and verify via the GA4 DebugView.
+const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // TODO: swap for real GA4 Measurement ID
 
 export const metadata: Metadata = {
   title: {

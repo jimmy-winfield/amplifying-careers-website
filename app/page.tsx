@@ -205,7 +205,7 @@ export default function HomePage() {
             <p>A few years ago, I found myself at a crossroads. Having built a career in recruitment, completed internships in Spain and China, and earned a first-class degree, I had built a wide range of skills, but wasn&apos;t sure how they added up to something meaningful.</p>
             <p>For the first time in what had felt like a linear path, I was stuck. Despite being great at helping others land their dream jobs in recruitment, I couldn&apos;t apply that clarity to myself.</p>
             <p>While navigating my own transition, I found myself naturally helping friends to identify fulfilling paths and secure roles they were excited about. I loved this process, and upon reflection, I realised that I&apos;d discovered a love for career coaching.</p>
-            <p>I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as Faculty Employer Engagement and Placement Manager at Greenwich Business School.</p>
+            <p>I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as a Career Consultant at a university in London.</p>
             <p>During my research, I noticed a clear gap. Many coaches had recruitment experience but lacked psychological depth to help individuals discover their ideal careers. Others understood the psychology of careers, but hadn&apos;t engaged with employers or application processes. I saw the power in combining both.</p>
             <p>Today, through AmplifyingCareers, I blend hands-on market insight with psychology-based coaching to help professionals move beyond just getting hired, into careers that align with who they are and what they love.</p>
             <Link href="/about" className="btn btn-outline story-proof-cta">
@@ -294,14 +294,14 @@ export default function HomePage() {
       <section className="section bg-cream" style={{paddingTop: '1.5rem'}}>
         <div className="services-home-inner">
           <div className="section-intro reveal">
-            <h2>Two programmes. One clear direction.</h2>
+            <h2>The Career Compass Programme</h2>
             <p>
-              Whether you&apos;re changing career or ready to land the right role, there&apos;s a programme built for exactly where you are.
+              A structured, psychology-backed 10-session programme for professionals who feel stuck and want to find a career that genuinely fits.
             </p>
           </div>
 
-          <div className="services-grid">
-            <article className="program-card reveal reveal-delay-1">
+          <div className="services-home-featured reveal">
+            <article className="program-card program-card-featured">
               <span className="program-badge">10 Sessions</span>
               <h3>Career Compass Programme</h3>
               <p>
@@ -311,14 +311,17 @@ export default function HomePage() {
                 Learn More
               </Link>
             </article>
+          </div>
 
-            <article className="program-card reveal reveal-delay-2">
+          <div className="services-home-secondary reveal">
+            <p className="services-home-secondary-label">Also available</p>
+            <article className="program-card program-card-secondary">
               <span className="program-badge">4 Sessions</span>
               <h3>Career Entry Programme</h3>
               <p>
                 For those who know their target role but are struggling with applications, interviews, and standing out. Targeted support to help you secure the right role with confidence.
               </p>
-              <Link href="/services" className="btn btn-primary">
+              <Link href="/services" className="btn btn-outline">
                 Learn More
               </Link>
             </article>

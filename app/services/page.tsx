@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import FaqAccordion from '../../components/FaqAccordion';
 
 export const metadata: Metadata = {
   title: 'Career Coaching Programmes | AmplifyingCareers',
@@ -258,6 +259,19 @@ export default function ServicesPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          FAQ
+      ══════════════════════════════════════ */}
+      <section className="section bg-cream">
+        <div className="faq-inner">
+          <div className="faq-header reveal">
+            <span className="eyebrow">FAQ</span>
+            <h2>Frequently asked questions.</h2>
+          </div>
+          <FaqAccordion />
         </div>
       </section>
 
