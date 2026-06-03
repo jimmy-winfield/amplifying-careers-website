@@ -1979,6 +1979,104 @@ p {
   margin: 0;
 }
 
+/* === Career Compass hook meta line === */
+.ccp-hook-meta {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--green-dark);
+  margin-top: 1rem;
+  letter-spacing: 0.01em;
+}
+
+/* === Career Entry Programme intro bridge === */
+.cep-intro-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cep-intro-divider {
+  width: 64px;
+  height: 3px;
+  background: var(--border);
+  border-radius: 2px;
+  margin-bottom: 2.5rem;
+}
+
+.cep-intro-inner h2 {
+  margin-bottom: 1rem;
+}
+
+.cep-intro-sub {
+  font-size: 1.1rem;
+  color: var(--text-body);
+  line-height: 1.72;
+  max-width: 620px;
+  margin: 0;
+}
+
+/* === Standalone Sessions === */
+.standalone-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.standalone-header {
+  max-width: 680px;
+  margin-bottom: 3rem;
+}
+
+.standalone-sub {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.72;
+  margin-top: 0.75rem;
+}
+
+.standalone-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.standalone-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2rem;
+}
+
+.standalone-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 0.875rem;
+  letter-spacing: -0.01em;
+}
+
+.standalone-card-body {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.75;
+  margin: 0;
+}
+
+.standalone-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.standalone-pricing {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+  max-width: 480px;
+  line-height: 1.65;
+}
+
 /* === About Stat Cards === */
 .about-stats-section {
   padding: 3rem 2rem;
@@ -2257,6 +2355,9 @@ p {
   .outcomes-grid { grid-template-columns: repeat(2, 1fr); }
   .outcome-card:last-child { grid-column: span 1; }
 
+  /* Standalone sessions */
+  .standalone-grid { grid-template-columns: 1fr; gap: 1rem; }
+
   /* CCP phases */
   .ccp-phases-grid { grid-template-columns: 1fr; gap: 1rem; }
 
@@ -2356,6 +2457,9 @@ p {
   /* Outcomes */
   .outcomes-grid { grid-template-columns: 1fr; }
   .outcome-card:last-child { grid-column: span 1; }
+
+  /* Standalone sessions */
+  .standalone-grid { grid-template-columns: 1fr; }
 
   /* CCP assets */
   .ccp-assets-grid { grid-template-columns: 1fr; }

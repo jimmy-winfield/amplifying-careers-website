@@ -77,6 +77,25 @@ const differentiators = [
   },
 ];
 
+const standaloneSessions = [
+  {
+    title: 'CV Review and Optimisation',
+    body: 'A thorough review of your CV with detailed feedback and practical recommendations to make it stand out, pass ATS systems, and get you interviews.',
+  },
+  {
+    title: 'LinkedIn Profile Enhancement',
+    body: 'A full review of your LinkedIn profile with actionable improvements to increase your visibility, attract the right opportunities, and position you effectively in your target market.',
+  },
+  {
+    title: 'Interview Preparation Session',
+    body: 'A focused session to prepare you for upcoming interviews. Covers structuring your answers, building confidence, and handling the questions that trip most candidates up.',
+  },
+  {
+    title: 'Application Strategy Session',
+    body: 'A practical session to sharpen your job search approach. Covers targeting the right roles, tailoring applications, accessing the hidden job market, and standing out from the crowd.',
+  },
+];
+
 export default function ServicesPage() {
   return (
     <>
@@ -91,31 +110,20 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* ── Programme Selector ── */}
-      <section className="section-sm bg-cream">
-        <div className="selector-inner reveal">
-          <span className="eyebrow">Find Your Fit</span>
-          <h2>Not sure which programme is right for you?</h2>
-          <p>
-            If you are feeling stuck and unsure of your direction, the <strong>Career Change Programme</strong> is likely the right fit. If you know what you want but are struggling to land it, the <strong>Career Entry Programme</strong> is for you.
-          </p>
-          <p>Still unsure? Book a free call and we will figure it out together.</p>
-          <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary">
-            Book a Free Call
-          </a>
-        </div>
-      </section>
-
       {/* ══════════════════════════════════════
-          CAREER CHANGE PROGRAMME
+          CAREER COMPASS PROGRAMME
       ══════════════════════════════════════ */}
 
       {/* Opening hook — cream */}
-      <section className="section bg-cream" style={{paddingTop: 0}}>
+      <section className="section bg-cream" style={{paddingTop: '5rem', paddingBottom: '4rem'}}>
         <div className="ccp-hook-inner reveal">
-          <span className="program-badge">Career Change Programme</span>
-          <h2>From vague dissatisfaction to a clear, evidence-based direction.</h2>
+          <span className="program-badge">Flagship Programme</span>
+          <h2>The Career Compass Programme</h2>
           <p className="ccp-hook-sub">For professionals who know something needs to change, but haven&apos;t yet defined what that looks like.</p>
+          <p className="ccp-hook-meta">10 Sessions across three phases: Explore, Architect, and Execute.</p>
+          <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary" style={{marginTop: '2rem'}}>
+            Book a Free Call
+          </a>
         </div>
       </section>
 
@@ -180,7 +188,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Career Change CTA — cream */}
+      {/* Career Compass CTA — cream */}
       <section className="section-sm bg-cream">
         <div className="cta-inner cta-light reveal">
           <span className="eyebrow">Get Started</span>
@@ -193,8 +201,20 @@ export default function ServicesPage() {
       </section>
 
       {/* ══════════════════════════════════════
-          CAREER ENTRY PROGRAMME (unchanged)
+          CAREER ENTRY PROGRAMME
       ══════════════════════════════════════ */}
+
+      {/* Intro bridge — cream */}
+      <section className="section-sm bg-cream" style={{paddingTop: 0, paddingBottom: '2rem'}}>
+        <div className="cep-intro-inner reveal">
+          <div className="cep-intro-divider" />
+          <h2>Already know your direction?</h2>
+          <p className="cep-intro-sub">
+            If you have clarity on where you want to go but are struggling to land the right role, the Career Entry Programme gives you the targeted support to get there.
+          </p>
+        </div>
+      </section>
+
       <section className="service-block">
         <div className="service-block-inner flip">
           <div className="service-content reveal">
@@ -222,7 +242,7 @@ export default function ServicesPage() {
             </div>
 
             <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary">
-              Book a Free Career Check-In
+              Book a Free Call
             </a>
           </div>
 
@@ -243,17 +263,36 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* ══════════════════════════════════════
+          STANDALONE SESSIONS
+      ══════════════════════════════════════ */}
       <section className="section bg-dark">
-        <div className="cta-inner reveal">
-          <span className="eyebrow-light">Not Sure Where to Start?</span>
-          <h2>Let&apos;s talk it through.</h2>
-          <p>
-            Book a free 30-minute career check-in. We&apos;ll work out which programme is right for you — or whether you even need one at all.
-          </p>
-          <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-cream">
-            Book Your Free Call
-          </a>
+        <div className="standalone-inner">
+          <div className="standalone-header reveal">
+            <span className="eyebrow-light">Standalone Sessions</span>
+            <h2>Need support with one specific thing?</h2>
+            <p className="standalone-sub">
+              Standalone sessions are available for professionals who want focused, practical support without a full programme commitment.
+            </p>
+          </div>
+
+          <div className="standalone-grid">
+            {standaloneSessions.map((s, i) => (
+              <div key={s.title} className={`standalone-card reveal reveal-delay-${Math.min(i + 1, 4)}`}>
+                <h3 className="standalone-card-title">{s.title}</h3>
+                <p className="standalone-card-body">{s.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="standalone-footer reveal">
+            <p className="standalone-pricing">
+              Pricing for all sessions and programmes is discussed on your free career check-in call.
+            </p>
+            <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-cream">
+              Book a Free Call
+            </a>
+          </div>
         </div>
       </section>
     </>

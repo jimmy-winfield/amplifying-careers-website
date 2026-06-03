@@ -293,8 +293,8 @@ export default function HomePage() {
 
           <div className="services-grid">
             <article className="program-card reveal reveal-delay-1">
-              <span className="program-badge">12 Sessions</span>
-              <h3>Career Change Programme</h3>
+              <span className="program-badge">10 Sessions</span>
+              <h3>Career Compass Programme</h3>
               <p>
                 For professionals feeling unfulfilled and unsure of their next steps. A structured, psychology-backed programme to help you discover and transition into a career that aligns with your values, strengths, and aspirations.
               </p>
