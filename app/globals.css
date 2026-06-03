@@ -949,6 +949,10 @@ p {
   padding-top: 1.5rem;
 }
 
+.service-outcome-below {
+  margin-top: 1.25rem;
+}
+
 .service-aside-card {
   background: var(--green-dark);
   border-radius: var(--radius-lg);

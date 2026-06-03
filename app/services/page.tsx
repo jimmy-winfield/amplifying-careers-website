@@ -215,8 +215,35 @@ export default function ServicesPage() {
       </section>
 
       <section className="service-block">
-        <div className="service-block-inner flip">
-          <div className="service-content reveal">
+        <div className="service-block-inner">
+          {/* Left column: Who this is for → Outcome → CTA */}
+          <div className="service-aside reveal">
+            <div className="service-aside-card">
+              <h3>Who this is for</h3>
+              <p>
+                People who know what they want but are not landing it. You might be getting interviews but struggling to convert, or not even getting past the application stage.
+              </p>
+              <p>
+                This programme cuts straight to the practical — your CV, your LinkedIn, your pitch, and your interview performance. Four focused sessions that make a measurable difference to your prospects.
+              </p>
+              <Link href="/contact" className="btn btn-outline">
+                Ask a Question
+              </Link>
+            </div>
+
+            <div className="service-outcome service-outcome-below reveal reveal-delay-2">
+              <p>
+                <strong>Outcome:</strong> A standout CV, optimised LinkedIn profile, targeted application strategy, and the confidence to perform in interviews.
+              </p>
+            </div>
+
+            <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary reveal reveal-delay-2" style={{marginTop: '1.25rem'}}>
+              Book a Free Call
+            </a>
+          </div>
+
+          {/* Right column: title, description, includes */}
+          <div className="service-content reveal reveal-delay-1">
             <span className="service-meta">4 Sessions</span>
             <h2>Career Entry Programme</h2>
             <p>
@@ -233,45 +260,7 @@ export default function ServicesPage() {
                 <li>Interview coaching — frameworks, practice, and the mindset to perform under pressure</li>
               </ul>
             </div>
-
-            <div className="service-outcome">
-              <p>
-                <strong>Outcome:</strong> A standout CV, optimised LinkedIn profile, targeted application strategy, and the confidence to perform in interviews.
-              </p>
-            </div>
-
-            <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary">
-              Book a Free Call
-            </a>
           </div>
-
-          <div className="service-aside reveal reveal-delay-2">
-            <div className="service-aside-card">
-              <h3>Who this is for</h3>
-              <p>
-                People who know what they want but are not landing it. You might be getting interviews but struggling to convert, or not even getting past the application stage.
-              </p>
-              <p>
-                This programme cuts straight to the practical — your CV, your LinkedIn, your pitch, and your interview performance. Four focused sessions that make a measurable difference to your prospects.
-              </p>
-              <Link href="/contact" className="btn btn-outline">
-                Ask a Question
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          FAQ
-      ══════════════════════════════════════ */}
-      <section className="section bg-cream">
-        <div className="faq-inner">
-          <div className="faq-header reveal">
-            <span className="eyebrow">FAQ</span>
-            <h2>Frequently asked questions.</h2>
-          </div>
-          <FaqAccordion />
         </div>
       </section>
 
@@ -305,6 +294,33 @@ export default function ServicesPage() {
               Book a Free Call
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          FAQ
+      ══════════════════════════════════════ */}
+      <section className="section bg-cream">
+        <div className="faq-inner">
+          <div className="faq-header reveal">
+            <span className="eyebrow">FAQ</span>
+            <h2>Frequently asked questions.</h2>
+          </div>
+          <FaqAccordion />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          FINAL CTA
+      ══════════════════════════════════════ */}
+      <section className="section-sm bg-cream">
+        <div className="cta-inner cta-light reveal">
+          <span className="eyebrow">Get Started</span>
+          <h2>Ready to find out if this is right for you?</h2>
+          <p>Book a free 30-minute career check-in. No pressure, no pitch. Just clarity on your next step.</p>
+          <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary">
+            Book Your Free Call
+          </a>
         </div>
       </section>
     </>
