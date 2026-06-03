@@ -327,7 +327,7 @@ p {
 /* === Hero === */
 .hero {
   background: var(--cream);
-  padding: 5rem 2rem 4rem;
+  padding: 4rem 2rem 4rem;
 }
 
 .hero-inner {
