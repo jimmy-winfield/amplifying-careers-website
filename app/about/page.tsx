@@ -39,7 +39,8 @@ const credentials = [
   'First-Class Honours degree',
   'MSc in Psychology with Distinction',
   'Recruitment background — UK Public Sector and international markets',
-  'Career Consultant at University of Greenwich',
+  'Faculty Employer Engagement and Placement Manager at Greenwich Business School',
+  'Firework Licensed Career Coach',
   'Hundreds of coaching sessions delivered',
 ];
 
@@ -77,7 +78,7 @@ export default function AboutPage() {
                 While navigating my own transition, I found myself naturally helping friends to identify fulfilling paths and secure roles they were excited about. I loved this process, and upon reflection, I realised that I&apos;d discovered a love for career coaching.
               </p>
               <p>
-                I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as a Career Consultant at a University in London.
+                I became fascinated by the psychology behind career decisions: what holds people back, what drives us, and how our values and identity shape our direction. This led me to study an MSc in Psychology while working as Faculty Employer Engagement and Placement Manager at Greenwich Business School.
               </p>
             </article>
 
@@ -96,16 +97,14 @@ export default function AboutPage() {
             </a>
           </div>
 
-          <div className="about-photo-wrap reveal reveal-delay-2">
-            <div className="about-photo-circle">
-              <Image
-                src="/jimmy-headshot.jpg"
-                alt="Jimmy Winfield — Career Coach"
-                width={1417}
-                height={2126}
-                className="about-headshot"
-              />
-            </div>
+          <div className="about-photo reveal reveal-delay-2">
+            <Image
+              src="/jimmy-headshot.jpg"
+              alt="Jimmy Winfield — Career Coach"
+              width={1417}
+              height={2126}
+              className="about-headshot"
+            />
           </div>
         </div>
       </section>
