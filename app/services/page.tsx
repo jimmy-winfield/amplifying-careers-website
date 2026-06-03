@@ -160,7 +160,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Quote — dark green */}
-      <section className="section-sm bg-dark">
+      <section className="section-sm bg-dark" style={{paddingBottom: '1.5rem'}}>
         <div className="quote-section reveal">
           <blockquote className="pullquote pullquote-light">
             &ldquo;A career that fits does not happen by accident. It is designed.&rdquo;
@@ -169,7 +169,7 @@ export default function ServicesPage() {
       </section>
 
       {/* What makes it different — dark green */}
-      <section className="section bg-dark">
+      <section className="section bg-dark" style={{paddingTop: '2rem'}}>
         <div className="ccp-diff-inner">
           <div className="reveal">
             <span className="eyebrow-light">The Difference</span>
