@@ -805,7 +805,6 @@ p {
 .page-hero .lead {
   font-size: 1.1rem;
   color: var(--text-muted);
-  max-width: 600px;
   line-height: 1.7;
 }
 
