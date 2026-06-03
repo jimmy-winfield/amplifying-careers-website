@@ -119,7 +119,7 @@ export default function HomePage() {
             <span className="eyebrow">Psychology-Led Career Coaching</span>
             <h1>You already know something needs to change.</h1>
             <p className="hero-subtext">
-              Most professionals who feel stuck do not lack talent or ambition. They lack clarity. I help you find it, build on it, and move forward with confidence.
+              Most professionals who feel stuck do not lack talent or ambition. They lack clarity. I help you find it, build your ideal career path, and create a plan to move forward with confidence.
             </p>
             <div className="hero-actions">
               <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary">
