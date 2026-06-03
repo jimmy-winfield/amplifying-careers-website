@@ -122,7 +122,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Quote ── */}
-      <section className="section-sm bg-cream">
+      <section className="section-sm bg-cream" style={{paddingBottom: '1.5rem'}}>
         <div className="quote-section reveal">
           <blockquote className="pullquote">
             &ldquo;Most people do not need more motivation. They need clarity on what they actually want.&rdquo;

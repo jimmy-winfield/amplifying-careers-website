@@ -194,15 +194,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3b ── Quote ── */}
-      <section className="section-sm bg-cream" style={{paddingTop: 0}}>
-        <div className="quote-section reveal">
-          <blockquote className="pullquote">
-            &ldquo;The problem is rarely a lack of options. It is not knowing which option is actually yours.&rdquo;
-          </blockquote>
-        </div>
-      </section>
-
       {/* 4 ── Story + Social Proof — cream ── */}
       <section className="section bg-cream" style={{paddingTop: 0}}>
         <div className="story-proof-inner">
@@ -243,6 +234,15 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* 4b ── Quote ── */}
+      <section className="section-sm bg-cream" style={{paddingTop: 0}}>
+        <div className="quote-section reveal">
+          <blockquote className="pullquote">
+            &ldquo;The problem is rarely a lack of options. It is not knowing which option is actually yours.&rdquo;
+          </blockquote>
         </div>
       </section>
 
