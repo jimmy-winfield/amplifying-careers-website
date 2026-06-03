@@ -73,12 +73,12 @@ const steps = [
   {
     n: '02',
     title: 'We build',
-    body: 'A structured programme tailored to your situation, goals, and timeline — combining psychology-based coaching with real market insight.',
+    body: 'A structured programme tailored to your goals and timeline. Every session combines psychology-based coaching with practical recruitment insights, so you are supported in both identifying and securing your chosen path.',
   },
   {
     n: '03',
     title: 'You move',
-    body: 'With clarity, confidence, and a concrete plan to secure the career you actually want — not just the next available option.',
+    body: 'Through over 40 guided activities and real-world Career Experiments, you build a picture of who you are, what you want, and what is possible. You leave with clarity, confidence, and a concrete plan to secure the career you actually want.',
   },
 ];
 

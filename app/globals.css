@@ -348,6 +348,7 @@ p {
   color: var(--text-muted);
   margin-bottom: 2.5rem;
   line-height: 1.75;
+  max-width: 37rem;
 }
 
 .hero-actions {
