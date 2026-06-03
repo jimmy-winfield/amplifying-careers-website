@@ -103,21 +103,34 @@ export default function ServicesPage() {
           CAREER COMPASS PROGRAMME
       ══════════════════════════════════════ */}
 
-      {/* Opening hook — cream */}
-      <section className="section bg-cream" style={{paddingTop: '5rem', paddingBottom: '4rem'}}>
-        <div className="ccp-hook-inner reveal">
-          <span className="program-badge">Flagship Programme</span>
-          <h2>The Career Compass Programme</h2>
-          <p className="ccp-hook-sub">For professionals who know something needs to change, but haven&apos;t yet defined what that looks like.</p>
-          <p className="ccp-hook-meta">10 Sessions across three phases: Explore, Architect, and Execute.</p>
-          <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-primary" style={{marginTop: '2rem'}}>
-            Book a Free Call
-          </a>
+      {/* Full-bleed dark hero */}
+      <section className="ccp-hero">
+        <div className="ccp-hero-inner reveal">
+          <span className="ccp-hero-label">Flagship Programme</span>
+          <h1 className="ccp-hero-headline">The Career Compass Programme</h1>
+          <p className="ccp-hero-sub">
+            For professionals who know something needs to change,<br />
+            but haven&apos;t yet defined what that looks like.
+          </p>
+          <div className="ccp-hero-sessions">
+            <span className="ccp-hero-sessions-text">10 Sessions across three phases: Explore, Architect, and Execute.</span>
+          </div>
+          <p className="ccp-hero-body">
+            A structured, evidence-based coaching programme that takes you from vague dissatisfaction to a clear career direction, and a concrete plan to get there. Built around you, your values, your strengths, and your real life.
+          </p>
+          <div className="ccp-hero-actions">
+            <a href={CALENDAR_URL} target="_blank" rel="noreferrer" className="btn btn-cream">
+              Book a Free Call
+            </a>
+            <a href="#programme-details" className="btn btn-outline-white">
+              See What Is Included
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Phase structure — dark green */}
-      <section className="section bg-dark">
+      <section id="programme-details" className="section bg-dark">
         <div className="ccp-phases-inner">
           <div className="ccp-phases-header reveal">
             <span className="eyebrow-light">The Structure</span>
