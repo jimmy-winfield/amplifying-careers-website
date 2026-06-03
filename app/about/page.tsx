@@ -121,6 +121,15 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── Quote ── */}
+      <section className="section-sm bg-cream">
+        <div className="quote-section reveal">
+          <blockquote className="pullquote">
+            &ldquo;Most people do not need more motivation. They need clarity on what they actually want.&rdquo;
+          </blockquote>
+        </div>
+      </section>
+
       {/* ── Credentials ── */}
       <section className="credentials-section">
         <div className="credentials-inner reveal">

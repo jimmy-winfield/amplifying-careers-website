@@ -72,12 +72,12 @@ const steps = [
   },
   {
     n: '02',
-    title: 'We build',
+    title: 'We craft your direction',
     body: 'A structured programme tailored to your goals and timeline. Every session combines psychology-based coaching with practical recruitment insights, so you are supported in both identifying and securing your chosen path.',
   },
   {
     n: '03',
-    title: 'You move',
+    title: 'You move forward, with clarity',
     body: 'Through over 40 guided activities and real-world Career Experiments, you build a picture of who you are, what you want, and what is possible. You leave with clarity, confidence, and a concrete plan to secure the career you actually want.',
   },
 ];
@@ -191,6 +191,15 @@ export default function HomePage() {
               Sound familiar? Let&apos;s talk.
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* 3b ── Quote ── */}
+      <section className="section-sm bg-cream" style={{paddingTop: 0}}>
+        <div className="quote-section reveal">
+          <blockquote className="pullquote">
+            &ldquo;The problem is rarely a lack of options. It is not knowing which option is actually yours.&rdquo;
+          </blockquote>
         </div>
       </section>
 
@@ -314,16 +323,6 @@ export default function HomePage() {
               </Link>
             </article>
           </div>
-        </div>
-      </section>
-
-      {/* 7 ── Quote pullquote — cream ── */}
-      <section className="section-sm bg-cream" style={{paddingTop: 0}}>
-        <div className="quote-section reveal">
-          <blockquote className="pullquote">
-            &ldquo;Most people do not need more motivation. They need clarity on what they actually want.&rdquo;
-          </blockquote>
-          <cite className="pullquote-cite">Jimmy Winfield, AmplifyingCareers</cite>
         </div>
       </section>
 

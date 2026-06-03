@@ -1726,6 +1726,10 @@ p {
   font-style: normal;
 }
 
+.pullquote-light {
+  color: white;
+}
+
 /* === Services Selector === */
 .selector-inner {
   max-width: 680px;

@@ -135,6 +135,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Quote — dark green */}
+      <section className="section-sm bg-dark">
+        <div className="quote-section reveal">
+          <blockquote className="pullquote pullquote-light">
+            &ldquo;A career that fits does not happen by accident. It is designed.&rdquo;
+          </blockquote>
+        </div>
+      </section>
+
       {/* Assets — cream */}
       <section className="section bg-cream">
         <div className="ccp-assets-inner">
