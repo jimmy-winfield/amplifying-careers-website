@@ -29,17 +29,17 @@ const phases = [
   {
     label: 'Phase 1 — Explore',
     sessions: 'Sessions 1 to 6',
-    body: 'Understand yourself deeply. Your values, strengths, what energises you, and what holds you back. Build the foundation every good career decision rests on.',
+    body: 'Understand yourself deeply through a series of guided exercises tailored to you. We explore your values, strengths, what energises you, and what holds you back. I support you throughout each session, helping you connect the dots and build the foundation every good career decision rests on.',
   },
   {
     label: 'Phase 2 — Architect',
     sessions: 'Sessions 7 to 9',
-    body: 'Test your options in the real world. Use Career Experiments and guided conversations to stress-test directions before committing. Build your decision on evidence, not assumption.',
+    body: 'Test your options in the real world using tailored suggestions. Use example lists of Career Experiments and guided conversations to stress-test directions before committing to a specific career path. These sessions help to ensure you are supported throughout and build your decision based on evidence, not assumptions.',
   },
   {
     label: 'Phase 3 — Execute',
     sessions: 'Session 10',
-    body: 'Turn your direction into a concrete plan. A 12-month bridge, a 30-day sprint, a financial transition plan, and proof projects calibrated to your real life.',
+    body: 'Turn your direction into a concrete, costed plan built around your real life. Together we co-create a 12-month bridge, a 30-day sprint, and proof projects calibrated to your risk tolerance, finances, and current situation. You leave this session already in motion.',
   },
 ];
 
@@ -99,17 +99,6 @@ const standaloneSessions = [
 export default function ServicesPage() {
   return (
     <>
-      {/* ── Page Hero ── */}
-      <section className="page-hero">
-        <div className="page-hero-inner reveal">
-          <span className="eyebrow">Services</span>
-          <h1>Two programmes. One clear direction.</h1>
-          <p className="lead">
-            Support for career change and career entry — with human, psychology-rooted coaching that goes beyond the CV.
-          </p>
-        </div>
-      </section>
-
       {/* ══════════════════════════════════════
           CAREER COMPASS PROGRAMME
       ══════════════════════════════════════ */}
