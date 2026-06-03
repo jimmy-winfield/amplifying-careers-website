@@ -1908,13 +1908,14 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 0;
   list-style: none;
+  max-width: 960px;
 }
 
 .ccp-asset-item {
   display: flex;
   align-items: flex-start;
   gap: 0.875rem;
-  padding: 1rem 1.25rem 1rem 0;
+  padding: 1.25rem 1.5rem;
   border-bottom: 1px solid var(--border);
   font-size: 0.975rem;
   color: var(--text-body);
@@ -1922,8 +1923,12 @@ p {
 }
 
 .ccp-asset-item:nth-child(odd) {
-  padding-right: 2.5rem;
+  padding-right: 3rem;
   border-right: 1px solid var(--border);
+}
+
+.ccp-asset-item:nth-child(even) {
+  padding-left: 3rem;
 }
 
 .ccp-asset-tick {
